@@ -9,6 +9,7 @@ public class Program {
 	public static void main(String[] args) {
 		VendedorDao vendedorDao = DaoFactory.createVendedorDao();
 
+		System.out.println("===========TEST============");
 		Vendedor vendedor = vendedorDao.findById(3);
 
 		System.out.println(vendedor);
